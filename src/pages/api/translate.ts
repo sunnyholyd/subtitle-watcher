@@ -10,10 +10,10 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const openai = new OpenAI({
-    apiKey: 'huadong-uF1qYdz8wvyX', // defaults to process.env["OPENAI_API_KEY"]
-    baseURL: "https://openai.in.zhihu.com/v1"
-  });
+  // const openai = new OpenAI({
+  //   apiKey: 'huadong-uF1qYdz8wvyX', // defaults to process.env["OPENAI_API_KEY"]
+  //   baseURL: "https://openai.in.zhihu.com/v1"
+  // });
 
   console.log(req.body)
 
